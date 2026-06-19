@@ -17,7 +17,7 @@ android {
 
         // Базовый адрес бэкенда EbloidStore. Поменяйте на свой serv00-домен.
         // Для эмулятора локальный сервер доступен по 10.0.2.2.
-        buildConfigField("String", "API_BASE_URL", "\"https://ebloid.serv00.net/api/\"")
+        buildConfigField("String", "API_BASE_URL", "\"http://ebloid.twgood.serv00.net/api/\"")
     }
 
     buildTypes {
